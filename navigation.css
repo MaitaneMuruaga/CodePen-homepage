@@ -1,0 +1,141 @@
+/* Estilos comunes */
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del menú de navegación */
+.navigation-wrapper{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Columna izquierda del menú de navegación */
+.navigation-wrapper > .left-column > .icon{
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    padding: 35px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Columna central del menú de navegación */
+.navigation-wrapper > .center-column > .navigation-menu{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 400px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6a623b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper > .nav-link a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper > .nav-link a:hover{
+    color: #9ea8a4;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper >.nav-link > .spark{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: #9ea8a4;
+    margin-left: 10px;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper >.nav-link > .spark:hover{
+    color: white;
+}
+
+.navigation-wrapper > .center-column > .navigation-menu > .links-wrapper >.nav-link > .spark > .arrow{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: #9ea8a4;
+    margin-left: 10px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Columna derecha del menú de navegación */
+.navigation-wrapper > .right-column > .buttons-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .button > .btn{
+    background-color: #36383f;
+    border: 1px solid #36383f;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .glass-button{
+    font-size: 25px;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .glass-button a{
+    color: #9ea8a4;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .glass-button a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .button a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .button a:hover{
+    color: #9ea8a4;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .buttons-menu > .button a > .arrow{
+    font-size: 15px;
+    color:#4acd78;
+    margin-left: 10px;
+}
+
+
